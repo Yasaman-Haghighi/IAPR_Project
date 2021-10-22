@@ -1,5 +1,5 @@
 # IAPR Project 2021 EPFL
-
+This repository contains the implementation of the IAPR final project offered at EPFL. The final model achieved 98% accuracy on the test set on the exam day. The project details are given below and the codes are available inside the `src` folder.
 
 ## 0. Introduction
 
@@ -77,15 +77,3 @@ The task is to ready yourself for the final evaluation. The day of the exam we w
    - (a) Detect which player is the selected **dealer** for each round.
    - (b) Predict the **rank** and the **suit** of the card played by each player at each round (Advanced rules).
    - (c) Predict the **number of points** of each player according to **Advanced** rules
-
-
-**Before the exam (until 03.06.21 at 23h59)**
-   - Create a zipped folder named **group_xx.zip** that you uplaod on moodel (xx being your group number).
-   - Include a **runnable** code (Jupyter Notebook and external files) and your presentation in the zip folder.
-   
-**The day of the exam (04.06.21)**
-   - You will be given a **new folder** with 13 images (rounds) and but **no ground truth** (csv file).
-   - We will ask you to run your pipeline in **realtime** and to send us your prediction of task 1 and 2 that you obtain with the function **print_results**. 
-   - On our side we will compute the perfomance of your classification algorithm. 
-   - To evaluate your method we will use the **evaluate_game** function presented below. To understant how the provided functions work please read the documentation of the functions in **utils.py**.
-   - **Please make sure your function returns the proper data format to avoid points penalty the day of the exam**. 
