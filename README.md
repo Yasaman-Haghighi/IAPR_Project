@@ -57,7 +57,7 @@ The advanced rules take into account the suits.
 You will be given the images of 7 games that were played ([download link](https://drive.google.com/drive/folders/1fEy27wnJsUJPRsEEomzoAtP56s-7HFtk?usp=sharing)). The data are composed of:
    - 7 folder named after the games (game1 to game7).
    - Each game includes 13 ordered images (1st to 13th round).
-   - Each game includes a csv file with the ground truth of the game. The first row list the players (P1 to P4) as well as the dealer (D). The following rows represent the rounds (1 to 13). We represent the card played with 2 character as $AB$ where $$A \in [0-9, J, Q, K]$$ is the rank of the card and $$B \in [C, D, H, S]$$ is the suit. For example, QS means "(Q)ueen of (S)pade" and 0D means "(0) of (D)iamond". The dealer is represented by the ID of the player (e.g. P1 -> 1).
+   - Each game includes a csv file with the ground truth of the game. The first row list the players (P1 to P4) as well as the dealer (D). The following rows represent the rounds (1 to 13). We represent the card played with 2 character as $AB$ where <img src="https://render.githubusercontent.com/render/math?math=A \in [0-9, J, Q, K]"> is the rank of the card and $$B \in [C, D, H, S]$$ is the suit. For example, QS means "(Q)ueen of (S)pade" and 0D means "(0) of (D)iamond". The dealer is represented by the ID of the player (e.g. P1 -> 1).
 
 
 
