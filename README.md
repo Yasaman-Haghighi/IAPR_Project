@@ -1,6 +1,6 @@
 # IAPR Project 2021 EPFL
 
----
+
 ## 0. Introduction
 
 An anonymous researcher that we will name Lann Yecun is convinced that the MNIST dataset still has great potential. He decides to create a playing card game based on MNIST digits and different figures. The game uses a standard 52 card deck which is composed of four French suits/colours: clubs (&#9827;), diamonds (&#9830;), hearts (&#9829;) and spades (&#9824;). Each suit includes 10 digit cards (from 0 to 9) and 3 figures (Jack-J, Queen-Q, and King-K). Here is an example of the 13 spade cards with their name.
@@ -52,7 +52,6 @@ The advanced rules take into account the suits.
 - The digits from the training set **would not** be the same as the one of the testing set.
 
 
----
 ## 2. Data
 
 You will be given the images of 7 games that were played ([download link](https://drive.google.com/drive/folders/1fEy27wnJsUJPRsEEomzoAtP56s-7HFtk?usp=sharing)). The data are composed of:
@@ -62,7 +61,7 @@ You will be given the images of 7 games that were played ([download link](https:
    
 You are free to use external datasets such as the original MNIST train set that you used in lab 3.
 
----
+
 ## 3. The Tasks
 
 The task is to ready yourself for the final evaluation. The day of the exam we will give you a new folder with a new game. ! The digits on the cards **differ** from the one of the traning set. When given a new data folder with 13 images your should be able to:
@@ -79,7 +78,6 @@ The task is to ready yourself for the final evaluation. The day of the exam we w
    - (b) Predict the **rank** and the **suit** of the card played by each player at each round (Advanced rules).
    - (c) Predict the **number of points** of each player according to **Advanced** rules
 
----
 
 **Before the exam (until 03.06.21 at 23h59)**
    - Create a zipped folder named **group_xx.zip** that you uplaod on moodel (xx being your group number).
