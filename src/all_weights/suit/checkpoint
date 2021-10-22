@@ -1,0 +1,2 @@
+model_checkpoint_path: "w8_suits_v7"
+all_model_checkpoint_paths: "w8_suits_v7"

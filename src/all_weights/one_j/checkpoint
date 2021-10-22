@@ -1,0 +1,2 @@
+model_checkpoint_path: "one_j_w8"
+all_model_checkpoint_paths: "one_j_w8"
